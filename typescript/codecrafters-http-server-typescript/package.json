@@ -1,0 +1,5 @@
+{
+  "name": "@codecrafters/http-server",
+  "description": "Build your own HTTP server challenge, from CodeCrafters",
+  "type": "module"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "@codecrafters/git",
+  "description": "Build your own git challenge, from CodeCrafters",
+  "type": "module"
+}

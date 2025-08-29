@@ -1,0 +1,5 @@
+{
+  "name": "@codecrafters/grep",
+  "description": "Build your own grep challenge, from CodeCrafters",
+  "type": "module"
+}

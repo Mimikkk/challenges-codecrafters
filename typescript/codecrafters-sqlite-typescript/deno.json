@@ -1,0 +1,33 @@
+{
+  "tasks": {
+    "dev": "deno run -A ./src/cli/main.ts",
+    "test": "deno test -A --watch"
+  },
+  "imports": {
+    "@types/node": "npm:@types/node",
+    "@std/testing": "jsr:@std/testing",
+    "@std/expect": "jsr:@std/expect"
+  },
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false
+  },
+  "fmt": {
+    "lineWidth": 120
+  },
+  "vendor": true,
+  "lint": {
+    "rules": {
+      "exclude": ["no-namespace", "no-misused-new"]
+    }
+  }
+}
