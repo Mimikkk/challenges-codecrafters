@@ -1,0 +1,28 @@
+{
+  // Rust-analyzer settings
+  "rust-analyzer.lens.implementations.enable": false,
+  "rust-analyzer.lens.enable": false,
+  // Editor settings for Rust
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  "editor.rulers": [100, 120],
+  // Search exclusions
+  "search.exclude": {
+    "**/target": true,
+    "**/Cargo.lock": true
+  },
+  // File watcher exclusions (for better performance)
+  "files.watcherExclude": {
+    "**/target/**": true
+  },
+  // Emmet (disable for Rust files to avoid conflicts)
+  "emmet.excludeLanguages": ["rust"],
+  // inlay hints
+  "editor.inlayHints.enabled": "offUnlessPressed",
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.autoSave": "onFocusChange",
+  "gitlens.codeLens.enabled": false
+}
